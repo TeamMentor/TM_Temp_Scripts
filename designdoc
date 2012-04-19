@@ -1,0 +1,16 @@
+Connect as admin to the webservice.
+Retrieve all methods, parameter names and types.
+Store all methods, parameters and types in a convenient data structure.
+Assign adversaries to each method. [admin,editor,reader,anonymous]
+
+For each user type{
+  Login as that user
+  For each method{
+     Check if method has this user as an adversary
+     If yes{
+	Invoke method as adversary
+	Analyze result
+	Record result
+     }
+  }
+}
