@@ -1,0 +1,58 @@
+editor^GetAllLibraryIds()^OK
+editor^XmlDatabase_ReloadData()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetStringIndexes()^OK
+editor^GetTime()^OK
+editor^CreateWebEditorSecret()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^XmlDatabase_GetLibraryPath()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetAllFolders()^OK
+editor^CreateUser_Random()^OK
+editor^TMConfigFileLocation()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^Current_SessionID()^OK
+editor^RBAC_CurrentIdentity_IsAuthenticated()^OK
+editor^GetGuidanceItemsMappings()^OK
+editor^JsDataTableWithAllGuidanceItemsInViews()^OK
+editor^Get_Libraries_Zip_Folder_Files()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^ClearGUIObjects()^OK
+editor^RBAC_SessionCookie()^OK
+editor^DeleteTempLibraries()^OK
+editor^JsTreeWithFoldersAndGuidanceItems()^OK
+editor^GetLibraries()^OK
+editor^XmlDatabase_GetDatabasePath()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^Get_Libraries_Zip_Folder()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^RBAC_CurrentIdentity_Name()^OK
+editor^CurrentProxyType()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetDisabledLibraries()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetUsers()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetAllViews()^OK
+editor^GetActiveSessions()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+editor^GetCurrentUserRoles()^OK
+editor^TMConfigFile()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetAllLibraryIds()^OK
+reader^XmlDatabase_ReloadData()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetStringIndexes()^OK
+reader^GetTime()^OK
+reader^CreateWebEditorSecret()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^XmlDatabase_GetLibraryPath()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetAllFolders()^OK
+reader^CreateUser_Random()^OK
+reader^TMConfigFileLocation()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^Current_SessionID()^OK
+reader^RBAC_CurrentIdentity_IsAuthenticated()^OK
+reader^GetGuidanceItemsMappings()^OK
+reader^JsDataTableWithAllGuidanceItemsInViews()^OK
+reader^Get_Libraries_Zip_Folder_Files()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^ClearGUIObjects()^OK
+reader^RBAC_SessionCookie()^OK
+reader^DeleteTempLibraries()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^JsTreeWithFoldersAndGuidanceItems()^OK
+reader^GetLibraries()^OK
+reader^XmlDatabase_GetDatabasePath()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^Get_Libraries_Zip_Folder()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^RBAC_CurrentIdentity_Name()^OK
+reader^CurrentProxyType()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetDisabledLibraries()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetUsers()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetAllViews()^OK
+reader^GetActiveSessions()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
+reader^GetCurrentUserRoles()^OK
+reader^TMConfigFile()^Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Security.SecurityException: Request for principal permission failed.
