@@ -1,0 +1,15 @@
+ArrayOfGuid	'42345678-1111-1111-1111-123456781234'
+xs:int	1
+ns0:guid	'22345678-1111-1111-1111-123456781234'
+xs:string	editor
+ns1:GuidanceType	'1'
+ArrayOfString	['a','b']
+ArrayOfInt	[1,2]
+xs:base64Binary	YmxhaCBibGFoIGJsYWgK
+xs:int	3
+ns1:View	'a'
+GuidanceItem_V3
+ArrayOfNewUser
+TeamMentor_Article
+ns1:Library
+ArrayOfGuid
