@@ -1,57 +1,56 @@
-xs:string folder	
+xs:string folder	""
 xs:string title	"d1"
 ns1:Library library	"10000000-0000-0000-0000-000000000000"
 xs:string password	"b"
-xs:int roleId	"2"
+xs:int roleId	2
 xs:string lastname	"c1"
 xs:string company	"e1"
-GuidanceItem_V3 guidanceItem	
+GuidanceItem_V3 guidanceItem	""
 xs:string libraryPath	"OWASP_TM_Library"
 ArrayOfGuid viewIds	[ "48057cf0-ac88-482b-948c-03f37a1c94fc", "3e08cc5c-313f-4fe5-a158-078f4555f7fc" ]
-ns0:guid folderId	""
-ArrayOfString disabledLibraries	
+ns0:guid folderId	"10000000-0000-0000-0000-000000000000"
+ArrayOfString disabledLibraries	["ea854894-8e16-46c8-9c61-737ef46d7e82","ea854894-8e16-46c8-9c61-737ef46d7e83"]
 xs:string schemaId	""
-xs:string libraryID	
-xs:string newFolderName	
-xs:string guidanceTypeId	"10000000-1000-0000-1000-000000000000"
-xs:string userName	
-ns0:guid articleId	
-xs:string libraryName	
-ArrayOfString keywords	
+xs:string libraryID	"ea854894-8e16-46c8-9c61-737ef46d7e82"
+xs:string newFolderName	""
+xs:string guidanceTypeId	10000000-1000-0000-1000-000000000000
+xs:string userName	"admin"
+ns0:guid articleId	"10000000-1000-0000-1000-000000000000"
+xs:string libraryName	"OWASPTop10"
+ArrayOfString keywords	["a","b"]
 ns1:GuidanceType guidanceType	"10000000-1000-0000-1000-000000000000"
 ArrayOfInt userIds	[ "2","3" ]
-xs:int groupId	"0"
-TeamMentor_Article article	
+xs:int groupId	0
+TeamMentor_Article article	""
 ns0:guid libraryId	"ea854894-8e16-46c8-9c61-737ef46d7e82"
-xs:string filename	
+xs:string filename	"a.txt"
 ArrayOfString columns	["1","2"]
 xs:string viewId	"10000000-1000-0000-0000-000000000000"
-ns0:guid sessionID	""
-xs:string content	
+ns0:guid sessionID	"10000000-0000-0000-0000-000000000000"
+xs:string content	"test content"
 xs:string name	"admin"
-xs:string itemsId	
+xs:string itemsId	"boo"
 xs:string htmlContent	
-xs:int userId	""
+xs:int userId	1
 xs:string email	"f1"
-xs:string Guid	
-xs:string pathToZipFile	
-xs:string gitCommand	
-ns0:guid guidanceItemId	"d64765a5-8649-47a1-bbc4-17eeece413c7"
+xs:string Guid	"ea854894-8e16-46c8-9c61-737ef46d7e82"
+xs:string pathToZipFile	"/opt"
+xs:string gitCommand	"git push orgini"
+ns0:guid guidanceItemId	d64765a5-8649-47a1-bbc4-17eeece413c7
 xs:string guidanceTypeName	"roadmap"
 xs:string role	"EditArticles"
 xs:string passwordHash	""
-xs:base64Binary contents	
-xs:string itemId	
-ArrayOfNewUser newUsers	[ { username:"a2", passwordHash:"b",email:"c",firstname: "d", lastname:"e", note: "f" } , { username:"a1", passwordHash:"b",email:"c",firstname: "d", lastname:"e", note: "f" } ]
+xs:base64Binary contents	"YmxhaCBibGFoIGJsYWgK"
+xs:string itemId	"booo"
+ArrayOfNewUser newUsers	[ {"a2", "b", "c", "d"} , {"a1", "b", "c", "d"} ]
 xs:string firstname	"b1"
 xs:string batchUserData	"test_user_1 , pwd , test, user1 \\\\n test_user_2 , pwd , test, user2"
-xs:string newName	
-xs:string dataType	
+xs:string newName	"abcd"
+xs:string dataType	"integer"
 ns0:guid viewId	"48057cf0-ac88-482b-948c-03f37a1c94fc"
 xs:string username	"a1"
 ArrayOfGuid guidanceItemIds	[""]
-ns0:guid parentFolderId	
+ns0:guid parentFolderId	"00000000-0000-0000-0000-000000000000"
 xs:string message	"aaaa"
 ns1:View view	"10000000-1000-0000-0000-000000000000"
-xs:string htmlCode	
-ns0:guid guidanceTypeId	
+ns0:guid guidanceTypeId	"10000000-1000-0000-1000-000000000000"
