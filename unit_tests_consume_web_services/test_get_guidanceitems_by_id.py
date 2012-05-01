@@ -10,3 +10,6 @@ def get_guidanceitems_by_id():
   if match:
     #client.service.Logout()
     return 'true'
+
+def test_get_guidanceitems_by_id():
+  assert get_guidanceitems_by_id() == 'true'

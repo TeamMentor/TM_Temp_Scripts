@@ -12,3 +12,6 @@ def get_guidanceitems_in_view():
   if match:
     #client.service.Logout()
     return 'true'
+
+def test_get_guidanceitems_in_view():
+  assert get_guidanceitems_in_view() == 'true'
