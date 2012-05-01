@@ -1,0 +1,123 @@
+AddGuidanceItemsToView	anonymous,reader,editor	
+BatchUserCreation	anonymous,reader,editor	
+ClearGUIObjects	anonymous,reader,editor	
+CreateArticle	anonymous,reader,editor	
+CreateArticle_Simple	anonymous,reader,editor	
+CreateFolder	anonymous,reader,editor	
+CreateGuidanceItem	anonymous,reader,editor	
+CreateGuidanceType	anonymous,reader,editor	
+CreateLibrary	anonymous,reader,editor	
+CreateUser		
+CreateUser_Random	anonymous,reader,editor	
+CreateUsers	anonymous,reader,editor	
+CreateView	anonymous,reader,editor	
+CreateWebEditorSecret	anonymous,reader,editor	
+Current_SessionID	anonymous,reader,editor	
+Current_User		
+CurrentProxyType	anonymous,reader,editor	
+DeleteDeletedGuidanceTypes	anonymous,reader,editor	
+DeleteDeletedLibraries	anonymous,reader,editor	
+DeleteFolder	anonymous,reader,editor	
+DeleteGuidanceItem	anonymous,reader,editor	
+DeleteGuidanceItems	anonymous,reader	
+DeleteGuidanceType	anonymous,reader,editor	
+DeleteLibrary	anonymous,reader,editor	
+DeleteTempLibraries	anonymous,reader,editor	
+DeleteUser	anonymous,reader,editor	
+DeleteUsers	anonymous,reader,editor	
+Get_Libraries_Zip_Folder	anonymous,reader,editor	
+Get_Libraries_Zip_Folder_Files	anonymous,reader,editor	
+GetActiveSession	anonymous,reader,editor	
+GetActiveSessions	anonymous,reader,editor	
+GetAllFolders	anonymous,reader,editor	
+GetAllGuidanceItems	anonymous,reader,editor	
+GetAllLibraryIds	anonymous	\w{8}-\w{4}-\w{4}-\w{4}-\w{13}
+GetAllUserLogs	anonymous,reader,editor	
+GetAllViews		^\(ArrayOf.*\)\{\s+.*libraryId\s=\s\"[\w-]*\".*folderId\s=\s\"[\w-]*\".*viewId\s=\s\"[\w-]*\".*caption\s=\s\".*\"\s+guidanceItems\s=\s+.*guid\[    \]\s=\s+\"[\w-]*\"
+GetCurrentUserRoles	anonymous,reader,editor	
+GetDeletedLibraries	anonymous,reader,editor	
+GetDisabledLibraries	anonymous,reader,editor	
+GetFolders		
+GetFolderStructure_Libraries		
+GetFolderStructure_Library		
+GetGuidanceItemById		
+GetGuidanceItemHtml	anonymous	
+GetGuidanceItemKeywords	anonymous,reader,editor	
+GetGuidanceItemsInFolder		
+GetGuidanceItemsInLibrary		
+GetGuidanceItemsInView		
+GetGuidanceItemsInViews	anonymous,reader,editor	
+GetGuidanceItemsMappings	anonymous,reader,editor	
+GetGuidanceTypeById	anonymous,reader,editor	
+GetGuidanceTypeByName	anonymous,reader,editor	
+GetGuidanceTypeColumns	anonymous,reader,editor	
+GetGuidanceTypes	anonymous,reader,editor	
+getGuidForMapping		
+GetGUIObjects		
+GetLibraries	anonymous,reader,editor	
+GetLibraryById	anonymous,reader,editor	
+GetLibraryByName	anonymous,reader,editor	
+GetPasswordHash	anonymous,reader,editor	
+GetSchemaById	anonymous,reader,editor	
+GetStringIndexes	anonymous,reader,editor	
+GetTime	anonymous,reader,editor	
+GetUploadToken	anonymous,reader,editor	
+GetUser_byID	anonymous,reader,editor	
+GetUser_byName	anonymous,reader,editor	
+GetUserGroupId	anonymous,reader,editor	
+GetUserGroupName	anonymous,reader,editor	
+GetUserRoles	anonymous,reader,editor	
+GetUsers	anonymous,reader,editor	
+GetUsers_byID	anonymous,reader,editor	
+GetViewById	anonymous,reader,editor	
+GetViewsInLibraryRoot	anonymous,reader,editor	
+Git_Execute	anonymous,reader,editor	
+GitHub_Pull_Origin	anonymous,reader,editor	
+GitHub_Push_Commit	anonymous,reader,editor	
+GitHub_Push_Origin	anonymous,reader,editor	
+JsDataTableWithAllGuidanceItemsInViews	anonymous,reader,editor	
+JsDataTableWithGuidanceItemsIn_Folder	anonymous,reader,editor	
+JsDataTableWithGuidanceItemsIn_Library	anonymous,reader,editor	
+JsDataTableWithGuidanceItemsIn_View	anonymous,reader,editor	
+JsDataTableWithGuidanceItemsInViews	anonymous,reader,editor	
+JsTreeWithFolders		
+JsTreeWithFoldersAndGuidanceItems	anonymous,reader,editor	
+Login		
+Login_PwdInClearText	anonymous,reader,editor	
+Logout	anonymous,reader,editor	
+LogUserGUID	anonymous,reader,editor	
+MoveViewToFolder	anonymous,reader,editor	
+Ping	anonymous,reader,editor	
+RBAC_CurrentIdentity_IsAuthenticated	anonymous,reader,editor	
+RBAC_CurrentIdentity_Name	anonymous,reader,editor	
+RBAC_CurrentPrincipal_Roles		
+RBAC_HasRole	anonymous,reader,editor	
+RBAC_SessionCookie	anonymous,reader,editor	
+RemoveGuidanceItemsFromView	anonymous,reader,editor	
+RemoveGuidanceTypeColumns	anonymous,reader,editor	
+RemoveViewFromFolder	anonymous,reader,editor	
+RenameFolder	anonymous,reader,editor	
+RenameLibrary	anonymous,reader,editor	
+Set_Libraries_Zip_Folder	anonymous,reader,editor	
+SetArticleContent	anonymous,reader,editor	
+SetArticleHtml	anonymous,reader,editor	
+SetDisabledLibraries	anonymous,reader,editor	
+SetGuidanceItemKeywords	anonymous,reader,editor	
+SetUserGroupId	anonymous,reader,editor	
+SetUserPasswordHash	anonymous,reader,editor	
+TMConfigFile	anonymous,reader,editor	
+TMConfigFileLocation	anonymous,reader,editor	
+UnDeleteLibrary	anonymous,reader,editor	
+UpdateGuidanceItem	anonymous,reader	
+UpdateGuidanceType	anonymous,reader,editor	
+UpdateLibrary	anonymous,reader,editor	
+UpdateUser	anonymous,reader,editor	
+UpdateView	anonymous,reader,editor	
+Upload_File_To_Library	anonymous,reader,editor	
+XmlDatabase_GetDatabasePath	anonymous,reader,editor	
+XmlDatabase_GetGuidanceItemXml	anonymous,reader,editor	
+XmlDatabase_GetLibraryPath	anonymous,reader,editor	
+XmlDatabase_GuidanceItems_SearchTitleAndHtml		
+XmlDatabase_ImportLibrary_fromZipFile	anonymous,reader,editor	
+XmlDatabase_ReloadData	anonymous,reader,editor	
+XmlDatabase_SetLibraryPath	anonymous,reader,editor	
