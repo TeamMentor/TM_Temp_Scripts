@@ -2,18 +2,18 @@ AddGuidanceItemsToView	anonymous,reader,editor
 BatchUserCreation	anonymous,reader,editor	
 ClearGUIObjects	anonymous,reader,editor	
 CreateArticle	anonymous,reader,editor	
-CreateArticle_Simple	anonymous,reader,editor	
-CreateFolder	anonymous,reader,editor	
+CreateArticle_Simple	anonymous,reader,editor	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
+CreateFolder	anonymous,reader,editor	\(Folder.*\{\s+libraryId\s=\s\"[\w-]*\"
 CreateGuidanceItem	anonymous,reader,editor	
 CreateGuidanceType	anonymous,reader,editor	
-CreateLibrary	anonymous,reader,editor	
-CreateUser		
+CreateLibrary	anonymous,reader,editor	True	
+CreateUser	nil	
 CreateUser_Random	anonymous,reader,editor	
 CreateUsers	anonymous,reader,editor	
-CreateView	anonymous,reader,editor	
+CreateView	anonymous,reader,editor	\(View.*\{\s+libraryId\s=\s\"[\w-]*\"
 CreateWebEditorSecret	anonymous,reader,editor	
 Current_SessionID	anonymous,reader,editor	
-Current_User		
+Current_User	nil	
 CurrentProxyType	anonymous,reader,editor	
 DeleteDeletedGuidanceTypes	anonymous,reader,editor	
 DeleteDeletedLibraries	anonymous,reader,editor	
@@ -31,29 +31,29 @@ GetActiveSession	anonymous,reader,editor
 GetActiveSessions	anonymous,reader,editor	
 GetAllFolders	anonymous,reader,editor	
 GetAllGuidanceItems	anonymous,reader,editor	
-GetAllLibraryIds	anonymous	\w{8}-\w{4}-\w{4}-\w{4}-\w{13}
+GetAllLibraryIds	nil	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
 GetAllUserLogs	anonymous,reader,editor	
-GetAllViews		^\(ArrayOf.*\)\{\s+.*libraryId\s=\s\"[\w-]*\".*folderId\s=\s\"[\w-]*\".*viewId\s=\s\"[\w-]*\".*caption\s=\s\".*\"\s+guidanceItems\s=\s+.*guid\[    \]\s=\s+\"[\w-]*\"
+GetAllViews	nil	^\(ArrayOf.*\)\{\s+.*libraryId\s=\s\"[\w-]*\".*folderId\s=\s\"[\w-]*\".*viewId\s=\s\"[\w-]*\".*caption\s=\s\".*\"\s+guidanceItems\s=\s+.*guid\[    \]\s=\s+\"[\w-]*\"
 GetCurrentUserRoles	anonymous,reader,editor	
 GetDeletedLibraries	anonymous,reader,editor	
 GetDisabledLibraries	anonymous,reader,editor	
-GetFolders		
-GetFolderStructure_Libraries		
-GetFolderStructure_Library		
-GetGuidanceItemById		
+GetFolders	nil	^\(ArrayOf.*\)\{\s+.*libraryId\s=\s\"[\w-]*\".*folderId\s=\s\"[\w-]*\"\s+name\s=\s\".*\"\s+views\s=
+GetFolderStructure_Libraries	nil	
+GetFolderStructure_Library	nil	^\(Library_V3\)\{\s+libraryId\s=\s\"[\w-]*\"\s+name\s=\s\"[\w\s]*\"\s+subFolders\s=\s+.*views\s=.*libraryId\s=[\"\w-]*\s+.*guid\[\]\s=\s+\"[\w-]    *\".*\}$
+GetGuidanceItemById	nil	^\(TeamMentor_Article\)\{\s+_Content_Hash\s=\s[-\d]*.*Metadata_Hash\s=\s[-\d]*.*Metadata\s=\s+\(TeamMentor_Article_Metadata\)\{\s+.*\}\s+Content    \s=\s+\(TeamMentor_Article_Content\)\{.*\}
 GetGuidanceItemHtml	anonymous	
 GetGuidanceItemKeywords	anonymous,reader,editor	
-GetGuidanceItemsInFolder		
-GetGuidanceItemsInLibrary		
-GetGuidanceItemsInView		
+GetGuidanceItemsInFolder	nil	^\(TeamMentor_Article\)\{\s+_Content_Hash\s=\s[-\d]*.*Metadata_Hash\s=\s[-\d]*.*Metadata\s=\s+\(TeamMentor_Article_Metadata\)\{\s+.*\}\s+Content    \s=\s+\(TeamMentor_Article_Content\)\{.*\}
+GetGuidanceItemsInLibrary	nil	^\(TeamMentor_Article\)\{\s+_Content_Hash\s=\s[-\d]*.*Metadata_Hash\s=\s[-\d]*.*Metadata\s=\s+\(TeamMentor_Article_Metadata\)\{\s+.*\}\s+Content    \s=\s+\(TeamMentor_Article_Content\)\{.*\}
+GetGuidanceItemsInView	nil	^\(TeamMentor_Article\)\{\s+_Content_Hash\s=\s[-\d]*.*Metadata_Hash\s=\s[-\d]*.*Metadata\s=\s+\(TeamMentor_Article_Metadata\)\{\s+.*\}\s+Content    \s=\s+\(TeamMentor_Article_Content\)\{.*\}
 GetGuidanceItemsInViews	anonymous,reader,editor	
 GetGuidanceItemsMappings	anonymous,reader,editor	
 GetGuidanceTypeById	anonymous,reader,editor	
 GetGuidanceTypeByName	anonymous,reader,editor	
 GetGuidanceTypeColumns	anonymous,reader,editor	
 GetGuidanceTypes	anonymous,reader,editor	
-getGuidForMapping		
-GetGUIObjects		
+getGuidForMapping	nil	
+GetGUIObjects	nil	
 GetLibraries	anonymous,reader,editor	
 GetLibraryById	anonymous,reader,editor	
 GetLibraryByName	anonymous,reader,editor	
@@ -80,9 +80,9 @@ JsDataTableWithGuidanceItemsIn_Folder	anonymous,reader,editor
 JsDataTableWithGuidanceItemsIn_Library	anonymous,reader,editor	
 JsDataTableWithGuidanceItemsIn_View	anonymous,reader,editor	
 JsDataTableWithGuidanceItemsInViews	anonymous,reader,editor	
-JsTreeWithFolders		
+JsTreeWithFolders	nil	
 JsTreeWithFoldersAndGuidanceItems	anonymous,reader,editor	
-Login		
+Login	nil	
 Login_PwdInClearText	anonymous,reader,editor	
 Logout	anonymous,reader,editor	
 LogUserGUID	anonymous,reader,editor	
@@ -90,14 +90,14 @@ MoveViewToFolder	anonymous,reader,editor
 Ping	anonymous,reader,editor	
 RBAC_CurrentIdentity_IsAuthenticated	anonymous,reader,editor	
 RBAC_CurrentIdentity_Name	anonymous,reader,editor	
-RBAC_CurrentPrincipal_Roles		
+RBAC_CurrentPrincipal_Roles	nil	
 RBAC_HasRole	anonymous,reader,editor	
 RBAC_SessionCookie	anonymous,reader,editor	
 RemoveGuidanceItemsFromView	anonymous,reader,editor	
 RemoveGuidanceTypeColumns	anonymous,reader,editor	
 RemoveViewFromFolder	anonymous,reader,editor	
-RenameFolder	anonymous,reader,editor	
-RenameLibrary	anonymous,reader,editor	
+RenameFolder	anonymous,reader,editor	True	
+RenameLibrary	anonymous,reader,editor	True	
 Set_Libraries_Zip_Folder	anonymous,reader,editor	
 SetArticleContent	anonymous,reader,editor	
 SetArticleHtml	anonymous,reader,editor	
@@ -112,12 +112,12 @@ UpdateGuidanceItem	anonymous,reader
 UpdateGuidanceType	anonymous,reader,editor	
 UpdateLibrary	anonymous,reader,editor	
 UpdateUser	anonymous,reader,editor	
-UpdateView	anonymous,reader,editor	
+UpdateView	anonymous,reader,editor	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
 Upload_File_To_Library	anonymous,reader,editor	
 XmlDatabase_GetDatabasePath	anonymous,reader,editor	
 XmlDatabase_GetGuidanceItemXml	anonymous,reader,editor	
 XmlDatabase_GetLibraryPath	anonymous,reader,editor	
-XmlDatabase_GuidanceItems_SearchTitleAndHtml		
+XmlDatabase_GuidanceItems_SearchTitleAndHtml	nil	
 XmlDatabase_ImportLibrary_fromZipFile	anonymous,reader,editor	
 XmlDatabase_ReloadData	anonymous,reader,editor	
 XmlDatabase_SetLibraryPath	anonymous,reader,editor	
