@@ -1,16 +1,16 @@
 AddGuidanceItemsToView	anonymous,reader,editor	
 BatchUserCreation	anonymous,reader,editor	
 ClearGUIObjects	anonymous,reader,editor	
-CreateArticle	anonymous,reader,editor	
-CreateArticle_Simple	anonymous,reader,editor	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
-CreateFolder	anonymous,reader,editor	\(Folder.*\{\s+libraryId\s=\s\"[\w-]*\"
+CreateArticle	anonymous,reader	
+CreateArticle_Simple	anonymous,reader	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
+CreateFolder	anonymous,reader	\(Folder.*\{\s+libraryId\s=\s\"[\w-]*\"
 CreateGuidanceItem	anonymous,reader,editor	
 CreateGuidanceType	anonymous,reader,editor	
-CreateLibrary	anonymous,reader,editor	True	
+CreateLibrary	anonymous,reader	True	
 CreateUser	nil	
 CreateUser_Random	anonymous,reader,editor	
 CreateUsers	anonymous,reader,editor	
-CreateView	anonymous,reader,editor	\(View.*\{\s+libraryId\s=\s\"[\w-]*\"
+CreateView	anonymous,reader	\(View.*\{\s+libraryId\s=\s\"[\w-]*\"
 CreateWebEditorSecret	anonymous,reader,editor	
 Current_SessionID	anonymous,reader,editor	
 Current_User	nil	
@@ -96,8 +96,8 @@ RBAC_SessionCookie	anonymous,reader,editor
 RemoveGuidanceItemsFromView	anonymous,reader,editor	
 RemoveGuidanceTypeColumns	anonymous,reader,editor	
 RemoveViewFromFolder	anonymous,reader,editor	
-RenameFolder	anonymous,reader,editor	True	
-RenameLibrary	anonymous,reader,editor	True	
+RenameFolder	anonymous,reader	True	
+RenameLibrary	anonymous,reader	True	
 Set_Libraries_Zip_Folder	anonymous,reader,editor	
 SetArticleContent	anonymous,reader,editor	
 SetArticleHtml	anonymous,reader,editor	
@@ -112,7 +112,7 @@ UpdateGuidanceItem	anonymous,reader
 UpdateGuidanceType	anonymous,reader,editor	
 UpdateLibrary	anonymous,reader,editor	
 UpdateUser	anonymous,reader,editor	
-UpdateView	anonymous,reader,editor	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
+UpdateView	anonymous,reader	\w{8}-\w{4}-\w{4}-\w{4}-\w{12}
 Upload_File_To_Library	anonymous,reader,editor	
 XmlDatabase_GetDatabasePath	anonymous,reader,editor	
 XmlDatabase_GetGuidanceItemXml	anonymous,reader,editor	
