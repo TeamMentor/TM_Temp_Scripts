@@ -8,12 +8,13 @@ client.set_options(proxy=d)
 
 def rename_folder():
   guid=client.service.Login('admin','9eff3dbd350bc5ef54fe7143658565bd45b6476db7c511f35206a143287f741d')
-  match=re.search(r'(\w{8})-\w{4}-\w{4}-\w{4}-\w{12}',guid)
+  match=re.search(r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',guid)
   if match:
     user_properties=client.service.Current_User()
     client.set_options(headers={'CSRF_Token': user_properties['CSRF_Token']})
     a=client.service.RenameLibrary('10000000-0000-0000-0000-000000000002','arsenalRC')
     if str(a) == 'True':
+      client.service.Logout()
       return 'true'
 
 def test_rename_folder():

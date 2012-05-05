@@ -20,6 +20,7 @@ def create_article():
     a=client.service.CreateArticle(article)
     m1=re.search(r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',str(a))
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_create_article():
