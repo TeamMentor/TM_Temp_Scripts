@@ -13,7 +13,6 @@ def get_disabled_libraries():
     user_properties=client.service.Current_User()
     client.set_options(headers={'CSRF_Token': user_properties['CSRF_Token']})
     a=client.service.GetDisabledLibraries()
-    print a
 
 def test_get_disabled_libraries():
   assert get_disabled_libraries() == 'true'

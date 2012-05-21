@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux2 -- Python 2.6.5 -- pytest-2.2.3 -- /usr/bin/python
+collecting ... collected 1 items
+
+test_get_all_guidance_items.py:14: test_get_all_guidance_items FAILED
+
+=================================== FAILURES ===================================
+_________________________ test_get_all_guidance_items __________________________
+
+    def test_get_all_guidance_items():
+>     assert get_all_guidance_items() == 'true'
+E     assert None == 'true'
+E      +  where None = get_all_guidance_items()
+
+test_get_all_guidance_items.py:15: AssertionError
+------------------------------- Captured stdout --------------------------------
+<print-error 'unicode' object>
+========================== 1 failed in 26.58 seconds ===========================
