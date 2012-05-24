@@ -16,6 +16,7 @@ def get_all_guidance_items():
     guidanceitem=client.service.GetAllGuidanceItems()
     m1=re.search(r'^\(ArrayOfTeamMentor_Article\)\{\s+TeamMentor_Article\[\]\s=\s+\(TeamMentor_Article\)\{\s+_Content_Hash',str(guidanceitem),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_all_guidance_items():

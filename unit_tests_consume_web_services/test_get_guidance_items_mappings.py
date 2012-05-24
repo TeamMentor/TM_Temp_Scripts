@@ -15,6 +15,7 @@ def get_guidance_items_mappings():
     a=client.service.GetGuidanceItemsMappings()
     m1=re.search(r'\(ArrayOfString\)\{\s+string\[\]\s=\s+["\,\d]+',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_guidance_items_mappings():

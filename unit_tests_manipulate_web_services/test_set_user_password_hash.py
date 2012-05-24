@@ -14,6 +14,7 @@ def set_user_password_hash():
     client.set_options(headers={'CSRF_Token': user_properties['CSRF_Token']})
     a=client.service.SetUserPasswordHash(402151848,'23972ba7370450a08aacf086630bb6e650b530cc625c13d1556b2d641bfb3675')
     if str(a) == 'True':
+      client.service.Logout()
       return 'true'
 
 def test_set_user_password_hash():

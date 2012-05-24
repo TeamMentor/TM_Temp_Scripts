@@ -15,6 +15,7 @@ def get_time():
     a=client.service.GetTime()
     m1=re.search(r'\d+\:\d+\:\d+\sPM$',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_time():

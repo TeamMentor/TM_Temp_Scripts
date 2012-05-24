@@ -15,6 +15,7 @@ def get_gui_objects():
     a=client.service.GetGUIObjects()
     m1=re.search(r'\(TM_GUI_Objects\)\{\s+GuidanceItemsMappings\s=\s+\(ArrayOfString\)\{\s+string\[\]\s=\s+',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_gui_objects():

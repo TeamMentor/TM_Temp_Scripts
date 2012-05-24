@@ -14,6 +14,7 @@ def update_user():
     client.set_options(headers={'CSRF_Token': user_properties['CSRF_Token']})
     a=client.service.UpdateUser(402151848,'test_ard','a','d','mr','si','a@w.coin',2)
     if str(a) == 'True':
+      client.service.Logout()
       return 'true'
 
 def test_update_user():

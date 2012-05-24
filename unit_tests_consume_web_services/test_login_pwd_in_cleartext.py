@@ -16,6 +16,7 @@ def login_pwd_in_clear_text():
     print a
     m1=re.search(r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_login_pwd_in_clear_text():

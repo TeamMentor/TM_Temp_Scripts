@@ -15,6 +15,7 @@ def get_active_sessions():
     a=client.service.GetActiveSessions()
     m1=re.search(r'\(ArrayOfGuid\)\{\s+guid\[\]\s=\s+',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_active_sessions():

@@ -15,6 +15,7 @@ def get_upload_token():
     a=client.service.GetUploadToken()
     m1=re.search(r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',str(a))
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_upload_token():

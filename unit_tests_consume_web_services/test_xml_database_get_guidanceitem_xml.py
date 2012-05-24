@@ -15,6 +15,7 @@ def get_XmlDatabase_GetGuidanceItemXml():
     a=client.service.XmlDatabase_GetGuidanceItemXml('00000000-0000-0000-0000-000000466605')
     m1=re.search(r'\<\?xml\sversion.*\<TeamMentor_Article',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_XmlDatabase_GetGuidanceItemXml():

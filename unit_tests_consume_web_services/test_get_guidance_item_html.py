@@ -15,6 +15,7 @@ def get_guidance_item_html():
     a=client.service.GetGuidanceItemHtml('16c073b9-e951-4f25-a282-e867d2d808f7')
     m1=re.search(r'^\<br\>\<br\>\<h1\>Applies\sTo\<\/h1\>',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_guidance_item_html():

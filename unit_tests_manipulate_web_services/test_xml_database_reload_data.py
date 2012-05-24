@@ -15,6 +15,7 @@ def XmlDatabase_ReloadData():
     a=client.service.XmlDatabase_ReloadData()
     m1=re.search(r'In\sthe\slibrary.*there\sare\s(\d)*\slibrary\(ies\)\,\s(\d)*\sviews\sand\s+(\d)*\sGuidanceItems\s*$',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_XmlDatabase_ReloadData():

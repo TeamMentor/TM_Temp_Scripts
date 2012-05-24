@@ -15,6 +15,7 @@ def get_password_hash():
     a=client.service.GetPasswordHash('admin','aaa')
     m1=re.search(r'^\w{64}',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_get_password_hash():

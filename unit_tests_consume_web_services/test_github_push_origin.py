@@ -15,6 +15,7 @@ def github_push_origin():
     a=client.service.GitHub_Push_Origin()
     print a
     if a:
+      client.service.Logout()
       return 'true'
 
 def test_github_push_origin():

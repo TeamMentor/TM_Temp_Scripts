@@ -15,6 +15,7 @@ def git_execute():
     a=client.service.Git_Execute('version')
     m1=re.search(r'git\sversion\s[\d\.\w]*',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_git_execute():

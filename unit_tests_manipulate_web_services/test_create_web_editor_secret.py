@@ -15,7 +15,7 @@ def create_web_editor_secret():
     a=client.service.CreateWebEditorSecret()
     m1=re.search(r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',str(a))
     if m1: 
-      client.service.CreateWebEditorSecret()
+      client.service.Logout()
       return 'true'
 
 def test_create_web_editor_secret():

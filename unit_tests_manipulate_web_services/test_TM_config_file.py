@@ -15,6 +15,7 @@ def TM_config_file():
     a=client.service.TMConfigFile()
     m1=re.search(r'\(TMConfig\)\{\s+WebSite_Port\s=',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_TM_config_file():

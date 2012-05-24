@@ -15,6 +15,7 @@ def ping():
     a=client.service.Ping('aaaa')
     m1=re.search(r'^received\sping',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_ping():

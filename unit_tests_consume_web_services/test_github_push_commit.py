@@ -16,6 +16,7 @@ def github_push_commit():
     print a
     m1=re.search(r'tttttt',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_github_push_commit():

@@ -14,6 +14,7 @@ def set_user_group_id():
     client.set_options(headers={'CSRF_Token': user_properties['CSRF_Token']})
     a=client.service.SetUserGroupId(402151848,3)
     if str(a) == 'True':
+      client.service.Logout()
       return 'true'
 
 def test_set_user_group_id():

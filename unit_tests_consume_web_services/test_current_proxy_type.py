@@ -15,6 +15,7 @@ def current_proxy_type():
     a=client.service.CurrentProxyType()
     m1=re.search(r'[\w\s]+',str(a),re.DOTALL)
     if m1:
+      client.service.Logout()
       return 'true'
 
 def test_current_proxy_type():
