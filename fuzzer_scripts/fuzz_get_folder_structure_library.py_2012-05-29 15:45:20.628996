@@ -1,0 +1,37 @@
+
+
+============================================================4738d445-bc9b-456c-8b35-a35057596c16============================================================
+
+(Library_V3){
+   libraryId = "4738d445-bc9b-456c-8b35-a35057596c16"
+   name = "OWASP Library"
+   subFolders = 
+      (ArrayOfFolder_V3){
+         Folder_V3[] = 
+            (Folder_V3){
+               libraryId = "4738d445-bc9b-456c-8b35-a35057596c16"
+               folderId = "90f22a68-ddf6-4eb5-ab
+
+============================================================7738d445-bc9b-456c-8b35-a35057596c16============================================================
+
+None
+
+============================================================4738d445-bc9b-456c-8b35-a35057596c166666666666============================================================
+
+Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (5, 87). ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   
+
+============================================================d445-bc9b-456c-8b35-a35057596c16============================================================
+
+Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (5, 73). ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   
+
+============================================================4738d445-bc9b-456c-8b35-''''''''''''============================================================
+
+Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (5, 137). ---> System.FormatException: Could not find any recognizable digits.
+   at System.ParseNumbers.StringToLong(String 
+
+============================================================4738d445-by9b-456c-8b35-111ggggghy23============================================================
+
+Server raised fault: 'System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (5, 77). ---> System.FormatException: Guid string should only contain hexadecimal characters.
+   at System.Guid.GuidResult.Se
