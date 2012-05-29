@@ -6,6 +6,7 @@ import datetime
 from lxml import etree
 
 payloads=[]; responses={}
+met='GetFolderStructure_Library'
 
 url='http://50.16.28.105:8000/aspx_pages/TM_WebServices.asmx?WSDL'
 client = suds.client.Client(url)
