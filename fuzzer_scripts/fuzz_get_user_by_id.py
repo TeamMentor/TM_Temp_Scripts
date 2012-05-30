@@ -6,7 +6,7 @@ import datetime
 from lxml import etree
 
 payloads=[]; responses={}
-met = 'GetFolderStructure_Library'
+met = 'GetUser_byID'
 
 url='http://50.16.28.105:8000/aspx_pages/TM_WebServices.asmx?WSDL'
 client = suds.client.Client(url)
@@ -17,10 +17,10 @@ def get_response_path():
   response_path='responses/'+__file__[0:-2]+str(datetime.datetime.now())+'.xml'
   return response_path
 
-def get_folderstructure_library(list_payload):
+def get_user_by_id(list_payload):
   for i in list_payload:
     try:
-      a=client.service.GetFolderStructure_Library(str(i))
+      a=client.service.GetUser_byID(i)
       responses[i]=str(a)[0:300]
     except Exception:
       exc_type, exc_value = sys.exc_info()[:2]
@@ -29,7 +29,7 @@ def get_folderstructure_library(list_payload):
   return responses
 
 def get_payloads():
-  f=open('guid_payloads','r')
+  f=open('only_numeric_payloads','r')
   for payload in f:
     payload=re.sub(r'\n$',r'',payload)
     payloads.append(payload)
@@ -50,7 +50,7 @@ def generate_xml(responses):
 
 def main():
   list_payload=get_payloads()
-  responses=get_folderstructure_library(list_payload)
+  responses=get_user_by_id(list_payload)
   report=generate_xml(responses)
 
 main()
