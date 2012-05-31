@@ -1,0 +1,3 @@
+GetUser_byName:all_chars_keyboard,all-encodings-of-lt.fuzz.txt
+RiBAC_HasRole:crazy_mix,GenericBlind.fuzz.txt,fuzzing_SQL.txt,fuzzing_XSS.txt,html_tags.txt,xss-rsnake.txt
+RBAC_HasRole:guid_payloads

