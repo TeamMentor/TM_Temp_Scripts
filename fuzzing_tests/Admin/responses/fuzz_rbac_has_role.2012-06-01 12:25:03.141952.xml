@@ -1,0 +1,76 @@
+<Method name="RBAC_HasRole">
+  <Payload>&lt;a&gt;<Response>False</Response></Payload>
+  <Payload>') or sleep(__TIME__)='<Response>False</Response></Payload>
+  <Payload>));waitfor delay '0:0:__TIME__'--<Response>False</Response></Payload>
+  <Payload>-268435455<Response>False</Response></Payload>
+  <Payload>&lt;&gt;<Response>False</Response></Payload>
+  <Payload>");waitfor delay '0:0:__TIME__'--<Response>False</Response></Payload>
+  <Payload>%0A/usr/bin/id%0A<Response>False</Response></Payload>
+  <Payload>onblur<Response>False</Response></Payload>
+  <Payload>0x7fffffff<Response>False</Response></Payload>
+  <Payload>xsstest<Response>False</Response></Payload>
+  <Payload>') or benchmark(10000000,MD5(1))#<Response>False</Response></Payload>
+  <Payload>")) or sleep(__TIME__)="<Response>False</Response></Payload>
+  <Payload>\u0000\u0000<Response>False</Response></Payload>
+  <Payload>;id<Response>False</Response></Payload>
+  <Payload>")) or pg_sleep(__TIME__)--<Response>False</Response></Payload>
+  <Payload>1) or sleep(__TIME__)#<Response>False</Response></Payload>
+  <Payload>0x80000000<Response>False</Response></Payload>
+  <Payload>/%2e/<Response>False</Response></Payload>
+  <Payload>))))))))))<Response>False</Response></Payload>
+  <Payload>%26%26+|+dir c:\<Response>False</Response></Payload>
+  <Payload>" or benchmark(10000000,MD5(1))#<Response>False</Response></Payload>
+  <Payload>%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d <Response>False</Response></Payload>
+  <Payload>/%5c/<Response>False</Response></Payload>
+  <Payload>')%20or%20('x'='x&#13;<Response>False</Response></Payload>
+  <Payload>&lt;!--#exec cmd="/bin/ls /" --&gt;&lt;br/&gt;<Response>False</Response></Payload>
+  <Payload>&lt;thead&gt;<Response>False</Response></Payload>
+  <Payload>&lt;th&gt;<Response>False</Response></Payload>
+  <Payload>%00<Response>False</Response></Payload>
+  <Payload>' or sleep(__TIME__)#<Response>False</Response></Payload>
+  <Payload>onerror<Response>False</Response></Payload>
+  <Payload>&lt;SCRIPT&gt;document.write("&lt;SCRI");&lt;/SCRIPT&gt;PT SRC="http://ha.ckers.org/xss.js"&gt;&lt;/SCRIPT&gt;<Response>False</Response></Payload>
+  <Payload>;netstat -a;<Response>False</Response></Payload>
+  <Payload>\u0000<Response>False</Response></Payload>
+  <Payload>onfocus<Response>False</Response></Payload>
+  <Payload>%2A%28%7C%28objectclass%3D%2A%29%29<Response>False</Response></Payload>
+  <Payload>&lt;SCRIPT&gt;alert('XSS');&lt;/SCRIPT&gt;<Response>False</Response></Payload>
+  <Payload>/%2f/<Response>False</Response></Payload>
+  <Payload>(){}[]:;"'/-_+=\.<Response>False</Response></Payload>
+  <Payload>1 or pg_sleep(__TIME__)--<Response>False</Response></Payload>
+  <Payload>") or sleep(__TIME__)="<Response>False</Response></Payload>
+  <Payload>%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i%i<Response>False</Response></Payload>
+  <Payload>'; if not(select system_user) &lt;&gt; 'sa' waitfor delay '0:0:20' --<Response>False</Response></Payload>
+  <Payload>/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f<Response>False</Response></Payload>
+  <Payload>..%%35%63<Response>False</Response></Payload>
+  <Payload>/%c0%ae%c0%ae\%c0%ae%c0%ae\<Response>False</Response></Payload>
+  <Payload>" or sleep(__TIME__)#<Response>False</Response></Payload>
+  <Payload>&lt;TABLE BACKGROUND="javascript:alert('XSS')"&gt;<Response>False</Response></Payload>
+  <Payload>/%00/<Response>False</Response></Payload>
+  <Payload>&lt;SCRIPT SRC=http://ha.ckers.org/xss.js&gt;&lt;/SCRIPT&gt;<Response>False</Response></Payload>
+  <Payload># from wapiti<Response>False</Response></Payload>
+  <Payload>\x00\x00<Response>False</Response></Payload>
+  <Payload>%0d%0aContentType:%20text/html;charset=UTF-7%0d%0aContent-Length:%20129%0d%0a%0d%0a%2BADw-html%2BAD4-%2BADw-body%2BAD4-%2BADw-script%2BAD4-alert%28%27XSS,cookies:%27%2Bdocument.cookie%29%2BADw-/script%2BAD4-%2BADw-/body%2BAD4-%2BADw-/html%2BAD4<Response>False</Response></Payload>
+  <Payload>');waitfor delay '0:0:__TIME__'--<Response>False</Response></Payload>
+  <Payload>' or sleep(__TIME__)='<Response>False</Response></Payload>
+  <Payload>1) or pg_sleep(__TIME__)--<Response>False</Response></Payload>
+  <Payload>ReadArticles<Response>True</Response></Payload>
+  <Payload>")) or benchmark(10000000,MD5(1))#<Response>False</Response></Payload>
+  <Payload>&lt;acronym&gt;<Response>False</Response></Payload>
+  <Payload>!@#$%^&amp;*()<Response>False</Response></Payload>
+  <Payload>../../../../../../../../../../etc/passwd<Response>False</Response></Payload>
+  <Payload>&lt;/foo&gt;<Response>False</Response></Payload>
+  <Payload>')) or benchmark(10000000,MD5(1))#<Response>False</Response></Payload>
+  <Payload>&lt;tfoot&gt;<Response>False</Response></Payload>
+  <Payload>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111<Response>False</Response></Payload>
+  <Payload>\x00<Response>False</Response></Payload>
+  <Payload>);waitfor delay '0:0:__TIME__'--<Response>False</Response></Payload>
+  <Payload>";waitfor delay '0:0:__TIME__'--<Response>False</Response></Payload>
+  <Payload>-1<Response>False</Response></Payload>
+  <Payload>%97<Response>False</Response></Payload>
+  <Payload>%96<Response>False</Response></Payload>
+  <Payload>%98<Response>False</Response></Payload>
+  <Payload>;echo 111111<Response>False</Response></Payload>
+  <Payload>C:\boot.ini<Response>False</Response></Payload>
+  <Payload>&lt;abbr&gt;<Response>False</Response></Payload>
+</Method>

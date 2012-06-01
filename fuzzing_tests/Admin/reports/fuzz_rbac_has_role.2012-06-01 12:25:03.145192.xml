@@ -1,0 +1,3 @@
+<Method name="RBAC_HasRole">
+  <Payload>ReadArticles<Result>Unexpected response generated True</Result></Payload>
+</Method>

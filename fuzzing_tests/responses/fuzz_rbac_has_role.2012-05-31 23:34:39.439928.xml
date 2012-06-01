@@ -1,9 +1,0 @@
-<Method name="RBAC_HasRole">
-  <Payload>ReadArticles<Response>True</Response><Size>4</Size></Payload>
-  <Payload>7738d445-bc9b-456c-8b35-a35057596c16<Response>False</Response><Size>5</Size></Payload>
-  <Payload>4738d445-bc9b-456c-8b35-''''''''''''<Response>False</Response><Size>5</Size></Payload>
-  <Payload>4738d445-bc9b-456c-8b35-a35057596c166666666666<Response>False</Response><Size>5</Size></Payload>
-  <Payload>d445-bc9b-456c-8b35-a35057596c16<Response>False</Response><Size>5</Size></Payload>
-  <Payload>4738d445-bc9b-456c-8b35-a35057596c16<Response>False</Response><Size>5</Size></Payload>
-  <Payload>4738d445-by9b-456c-8b35-111ggggghy23<Response>False</Response><Size>5</Size></Payload>
-</Method>

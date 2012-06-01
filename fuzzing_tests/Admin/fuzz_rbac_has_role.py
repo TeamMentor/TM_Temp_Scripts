@@ -4,6 +4,7 @@ import os
 import re
 import datetime
 from lxml import etree
+import threading
 
 payloads=[]; responses={}; method_exp_values={}; report={}
 
@@ -38,15 +39,26 @@ def get_report_path():
 
 #Actual web service method invoking; only 1st 300 characters of the response stored
 def rbac_has_role(list_payload):
+  threads=[]
   for i in list_payload:
+    #Start a new thread for each payload
+    t = threading.Thread(target=thread_rbac_has_role, args=(i,))
+    threads.append(t)
+    t.start()
+    #responses=thread_rbac_has_role(i)
+  return responses
+
+#Each thread invokes a method
+def thread_rbac_has_role(payload):
     try:
-      a=client.service.RBAC_HasRole(i)
-      responses[i]=str(a)
+      a=client.service.RBAC_HasRole(payload)
+      responses[payload]=str(a)
+      return responses
     except Exception:
       exc_type, exc_value = sys.exc_info()[:2]
-      responses[i]=str(exc_value)
+      responses[payload]=str(exc_value)
       pass
-  return responses
+      return responses
 
 #Open config file and get a list of all files which have payloads in them; expand them and store them in the payloads 'list'
 def get_payloads():
@@ -77,8 +89,6 @@ def generate_xml(responses):
     payload.text = key
     resp = etree.SubElement(payload,"Response")
     resp.text = responses[key]
-    size = etree.SubElement(payload,"Size")
-    size.text = str(len(resp.text))
 
   t1 = etree.ElementTree(root)
   t1.write(path, pretty_print=True)
