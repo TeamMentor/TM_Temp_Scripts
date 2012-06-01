@@ -133,9 +133,20 @@ def generate_xml_report(report):
      t1.write(path, pretty_print=True)
      return path
 
+def check_if_database_healthy():
+  a=client.service.RBAC_HasRole('ReadArticles')
+  if str(a) != 'True':
+    f=open('db_has_problems','w')
+    f.write('The DB may be corrupted or blank')
+    f.close()
+
 def main():
-  #Login to invoke the WS
-  is_logged_in=login()
+  if not os.path.isfile('db_has_problems'):
+     #Login to invoke the WS
+     is_logged_in=login()
+  else:
+    print 'Db may be corrupted! Please restore and then re-run test. If you are totally sure..that the DB is fine; please remove the file db_has_problems from the fuzzing_scripts directory and re-run'
+    sys.exit(0)
 
   #If Login successful
   if is_logged_in == 'true':
@@ -151,6 +162,8 @@ def main():
     report=analysis_xml(xmlresponse)
     #Generate XML report
     generate_xml_report(report)
+    #Do a re-check to see if the database hasn't decided to go boom :)
+    is_db_ok=check_if_database_healthy()
     #Logout
     client.service.Logout()
   else:
