@@ -1,8 +1,0 @@
-<Test name="Authorization Test">
-  <Method_and_User method_user="RBAC_HasRole:editor">True</Method_and_User>
-  <Method_and_User method_user="RBAC_CurrentIdentity_IsAuthenticated:editor">True</Method_and_User>
-  <Method_and_User method_user="RBAC_CurrentIdentity_IsAuthenticated:anonymous">True</Method_and_User>
-  <Method_and_User method_user="RBAC_CurrentIdentity_IsAuthenticated:reader">True</Method_and_User>
-  <Method_and_User method_user="RBAC_HasRole:reader">True</Method_and_User>
-  <Method_and_User method_user="RBAC_HasRole:anonymous">True</Method_and_User>
-</Test>
