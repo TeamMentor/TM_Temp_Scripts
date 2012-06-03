@@ -14,10 +14,10 @@ import authorization
 import ws_method
 import xml_writer
 
-#Enter WSDL Url here
-url='http://50.16.28.105:8000//aspx_pages/TM_WebServices.asmx?WSDL'
-
 def main():
+  #Read URL from config file
+  url=setup.geturl()
+
   #Connect to website and retrieve object which contains WSDL details
   client=setup.connect(url)
 

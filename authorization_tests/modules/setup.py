@@ -1,13 +1,28 @@
 import suds
 import re
+import sys
 
 users={}
 
+def geturl():
+  try:
+    f=open('config','rU')
+  except:
+    print 'Could not find config file'
+  config=f.readlines()
+  for i in config:
+    if 'url' in i:
+      t1=i.split('=')
+      url=t1[1]
+      break
+
+  url=re.sub(r'\s+$',r'',url)
+  return url
+     
 #Connect and retrieve WSDL
 def connect(url):
   #Use the Suds library to connect and return an object which is used later to query individual methods.
   client = suds.client.Client(url)
-
   #Set proxy to the awesome Burp for debugging purposes; uncomment the next 2 lines if you want to look at requests :)
   #d = dict(http='127.0.0.1:8080')
   #client.set_options(proxy=d)
